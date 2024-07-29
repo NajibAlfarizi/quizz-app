@@ -1,5 +1,12 @@
+<script setup>
+import QuizHeader from "@/components/QuizHeader.vue";
+import QuizContent from "@/components/QuizContent.vue";
+</script>
+
+<script setup></script>
 <template>
-  <div>
-    <h1>Quiz Page</h1>
-  </div>
+  <QuizHeader />
+  <QuizContent />
 </template>
+
+<style scoped></style>
